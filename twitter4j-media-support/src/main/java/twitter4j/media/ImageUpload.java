@@ -35,4 +35,5 @@ public interface ImageUpload {
     public String upload(String imageFileName, InputStream imageBody) throws TwitterException;
 
     public String upload(String imageFileName, InputStream imageBody, String message) throws TwitterException;
+    
 }
